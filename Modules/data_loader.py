@@ -1,9 +1,9 @@
 import pandas as pd
 
 def load_data():
-    basic_info = pd.read_excel('/Users/09hritik/ML/Entertainer/data/Basic_Info.xlsx')
-    breakthrough_info = pd.read_excel('/Users/09hritik/ML/Entertainer/data/Breakthrough_ Info.xlsx')
-    last_work_info = pd.read_excel('/Users/09hritik/ML/Entertainer/data/Last_work_Info.xlsx')
+    basic_info = pd.read_excel('/Users/09hritik/ML/Entertainer-Analysis/data/Basic_Info.xlsx')
+    breakthrough_info = pd.read_excel('/Users/09hritik/ML/Entertainer-Analysis/data/Breakthrough_ Info.xlsx')
+    last_work_info = pd.read_excel('/Users/09hritik/ML/Entertainer-Analysis/data/Last_work_Info.xlsx')
     return basic_info, breakthrough_info, last_work_info
 
 #if __name__ == '__main__':
